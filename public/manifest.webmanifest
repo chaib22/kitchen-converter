@@ -9,8 +9,40 @@
   "orientation": "portrait",
   "background_color": "#fdf6ec",
   "theme_color": "#bc5a2e",
-  "categories": ["food", "utilities"],
+  "categories": ["food", "utilities", "lifestyle"],
   "lang": "en",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/screenshots/shot-1.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cups to grams converter for 60+ ingredients"
+    },
+    {
+      "src": "/screenshots/shot-2.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Oven temperature converter - Fahrenheit, Celsius and Gas Mark"
+    },
+    {
+      "src": "/screenshots/shot-3.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "US and Imperial volume conversions"
+    },
+    {
+      "src": "/screenshots/shot-4.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Recipe scaler for any serving size"
+    }
+  ],
   "icons": [
     {
       "src": "/icons/icon-192.png",
