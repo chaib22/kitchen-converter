@@ -72,6 +72,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Register the SW from the very first HTML parse — PWABuilder and
+            install prompts detect it without waiting for hydration. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js").catch(function(){})}`,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} antialiased bg-background text-foreground`}
       >
