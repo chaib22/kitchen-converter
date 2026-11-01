@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.chaib22.kitchenconverter",
+        "sha256_cert_fingerprints": ["D2:78:38:0E:10:A1:91:8C:23:67:80:DB:02:F6:8D:68:8C:B7:D5:06:23:FC:BA:7E:1A:15:8F:6C:09:4E:15:C9"]
+      }
+    }]
